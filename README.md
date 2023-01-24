@@ -1,4 +1,4 @@
-# react-playground
+# seznam-blog
 
 dog pictures are taken from https://o.seznam.cz/o-nas/
 
