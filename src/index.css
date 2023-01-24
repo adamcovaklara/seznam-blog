@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+a:link {
+  text-decoration: none;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 3px solid #ababab;
+}
+.navbar h1 {
+  margin: 0 auto;
+  color: #ff6d00;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #ababab;
+}
+.content {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+.page-list{
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  line-height: 1.5;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 16px;
+}
+.photo {
+  float: left;
+  width: 10%;
+  height: auto;
+}
+.photo:hover {
+  box-shadow: 100px 15px 75px #ff6d00;
+}
+.medium {
+  padding: 20px;
+  float: left;
+}
+
+.create {
+  display: flex;
+  justify-content: center;
+  padding: 10px 16px;
+  margin: 20px 0;
+}
+
+.home {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.home button {
+  margin-top: 10px;
+  background: #ababab;
+  color: #fff;
+  border: 0;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.not-found {
+  display: flex;
+  justify-content: center;
+  padding: 10px 16px;
+  margin: 20px 0;
+  border: 0;
+  text-decoration: none;
+}
+
+/* blog previews / list */
+.blog-preview {
+  display: flex;
+  justify-content: center;
+  padding: 10px 16px;
+  margin: 20px 0;
+  border: 0;
+  text-decoration: none;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #ff6d00;
+  margin-bottom: 8px;
+}
+
+.blog-details {
+  display: flex;
+  justify-content: center;
+  padding: 10px 16px;
+  margin: 20px 0;
+}
+
+/* blog details page */
+.blog-details h2 {
+  display: flex;
+  justify-content: center;
+  padding: 10px 16px;
+  max-width: 600px;
+  margin: 20px 0;
+  font-size: 20px;
+  color: #ff6d00;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+  padding: 10px 16px;
+  margin: 20px 0;
+}
+.blog-details button {
+  background: #ff6d00;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #ff6d00;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #ff6d00;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.krasty {
+  margin-left: -10px;
+  padding: 60px 0px;
+}
+.krasty button {
+  margin-top: 20px;
+}
